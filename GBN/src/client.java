@@ -39,29 +39,7 @@ System.out.println("window size is : "+f);
 ms.println(n);
 sc.close();
 window win= new window(r);
-/////
-/*File file = new File("C:/Users/Pupul/Desktop/Read");
-int count = 0;
-for (File fj : file.listFiles()) {
-        if (fj.isFile()) {
-                count++;
-        }
-}
-System.out.println(count);
-for(int gh=0;gh<count;gh++)
-{
-	Scanner fileScanner = new Scanner(file);
 
-    int lineNumber = 0;
-    while(fileScanner.hasNextLine()){
-        System.out.println(fileScanner.nextLine());
-        int x=lineNumber%win.size;
-        String ns= x+fileScanner.nextLine();
-        
-        lineNumber++;
-    }
-}*/
-////////
 int y=-1;
 while(true)
 {
